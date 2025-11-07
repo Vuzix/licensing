@@ -1,2 +1,2 @@
 install:
-mvn install:install-file -Dfile=licensing.aar -Djavadoc=licensing-javadoc.jar -DgroupId=com.vuzix -DartifactId=licensing -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+mvn install:install-file -Dfile=licensing.aar -DpomFile=licensing.pom -Djavadoc=licensing-javadoc.jar -DgeneratePom=false
