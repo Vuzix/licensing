@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.vuzix.licensing","l":"Licensing.Callback"},{"p":"com.vuzix.licensing","l":"Licensing"},{"p":"com.vuzix.licensing","l":"ValidateException"},{"p":"com.vuzix.licensing","l":"ValidateOptions"},{"p":"com.vuzix.licensing","l":"ValidateResult"}];updateSearchResults();
