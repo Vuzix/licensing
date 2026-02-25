@@ -33,6 +33,9 @@ The latest licensing version on JitPack is [![](https://jitpack.io/v/com.vuzix/l
 ## Documentation
 For additional information, please refer to the [Licensing SDK for Vuzix App Store Javadocs](https://vuzix.github.io/licensing/javadoc/allclasses-index.html).
 
+## Sample Application
+Please refer to the [Licensing SDK for Vuzix App Store Sample](https://github.com/Vuzix/LicensingSample) to see basic usage.
+
 ## Key Concepts
 
 Any application that wishes to perform license management using the Vuzix App Store should incorporate this
