@@ -48,7 +48,7 @@ loadScripts(document, 'script');</script>
 <div class="header">
 <h1>Index</h1>
 </div>
-<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="constant-values.html">Constant&nbsp;Field&nbsp;Values</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a>
+<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="constant-values.html">Constant&nbsp;Field&nbsp;Values</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a>
 <h2 class="title" id="I:C">C</h2>
 <dl class="index">
 <dt><a href="com/vuzix/licensing/package-summary.html">com.vuzix.licensing</a> - package com.vuzix.licensing</dt>
@@ -147,6 +147,14 @@ loadScripts(document, 'script');</script>
 </dl>
 <h2 class="title" id="I:L">L</h2>
 <dl class="index">
+<dt><a href="com/vuzix/licensing/LicenseManager.html" class="type-name-link" title="class in com.vuzix.licensing">LicenseManager</a> - Class in <a href="com/vuzix/licensing/package-summary.html">com.vuzix.licensing</a></dt>
+<dd>
+<div class="block">Wrapper class around the AppStore AIDL licensing API</div>
+</dd>
+<dt><a href="com/vuzix/licensing/LicenseManager.html#%3Cinit%3E(android.content.Context)" class="member-name-link">LicenseManager(Context)</a> - Constructor for class com.vuzix.licensing.<a href="com/vuzix/licensing/LicenseManager.html" title="class in com.vuzix.licensing">LicenseManager</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="com/vuzix/licensing/LicenseManager.ValidationListener.html" class="type-name-link" title="interface in com.vuzix.licensing">LicenseManager.ValidationListener</a> - Interface in <a href="com/vuzix/licensing/package-summary.html">com.vuzix.licensing</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="com/vuzix/licensing/Licensing.html" class="type-name-link" title="class in com.vuzix.licensing">Licensing</a> - Class in <a href="com/vuzix/licensing/package-summary.html">com.vuzix.licensing</a></dt>
 <dd>
 <div class="block">The Licensing API allows you query for Vuzix App Store subscription status.</div>
@@ -166,18 +174,33 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Invoked when an error occurs during subscription validation.</div>
 </dd>
+<dt><a href="com/vuzix/licensing/LicenseManager.ValidationListener.html#onFailure(int,java.lang.String)" class="member-name-link">onFailure(int, String)</a> - Method in interface com.vuzix.licensing.<a href="com/vuzix/licensing/LicenseManager.ValidationListener.html" title="interface in com.vuzix.licensing">LicenseManager.ValidationListener</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="com/vuzix/licensing/Licensing.Callback.html#onResult(com.vuzix.licensing.ValidateResult)" class="member-name-link">onResult(ValidateResult)</a> - Method in interface com.vuzix.licensing.<a href="com/vuzix/licensing/Licensing.Callback.html" title="interface in com.vuzix.licensing">Licensing.Callback</a></dt>
 <dd>
 <div class="block">Invoked when subscription validation results are available.</div>
 </dd>
+<dt><a href="com/vuzix/licensing/LicenseManager.ValidationListener.html#onSuccess(java.lang.String)" class="member-name-link">onSuccess(String)</a> - Method in interface com.vuzix.licensing.<a href="com/vuzix/licensing/LicenseManager.ValidationListener.html" title="interface in com.vuzix.licensing">LicenseManager.ValidationListener</a></dt>
+<dd>&nbsp;</dd>
 </dl>
-<h2 class="title" id="I:S">S</h2>
+<h2 class="title" id="I:R">R</h2>
 <dl class="index">
-<dt><a href="com/vuzix/licensing/Licensing.html#setServerURL(java.lang.String)" class="member-name-link">setServerURL(String)</a> - Method in class com.vuzix.licensing.<a href="com/vuzix/licensing/Licensing.html" title="class in com.vuzix.licensing">Licensing</a></dt>
+<dt><a href="com/vuzix/licensing/LicenseManager.html#release()" class="member-name-link">release()</a> - Method in class com.vuzix.licensing.<a href="com/vuzix/licensing/LicenseManager.html" title="class in com.vuzix.licensing">LicenseManager</a></dt>
+<dd>
+<div class="block">Releases the connection to the Appstore Service.</div>
+</dd>
+</dl>
+<h2 class="title" id="I:T">T</h2>
+<dl class="index">
+<dt><a href="com/vuzix/licensing/ValidateResult.html#toString()" class="member-name-link">toString()</a> - Method in class com.vuzix.licensing.<a href="com/vuzix/licensing/ValidateResult.html" title="class in com.vuzix.licensing">ValidateResult</a></dt>
 <dd>&nbsp;</dd>
 </dl>
 <h2 class="title" id="I:V">V</h2>
 <dl class="index">
+<dt><a href="com/vuzix/licensing/LicenseManager.html#validate(java.lang.String,com.vuzix.licensing.LicenseManager.ValidationListener)" class="member-name-link">validate(String, LicenseManager.ValidationListener)</a> - Method in class com.vuzix.licensing.<a href="com/vuzix/licensing/LicenseManager.html" title="class in com.vuzix.licensing">LicenseManager</a></dt>
+<dd>
+<div class="block">Asynchronous license validation.</div>
+</dd>
 <dt><a href="com/vuzix/licensing/ValidateException.html" class="type-name-link" title="class in com.vuzix.licensing">ValidateException</a> - Exception Class in <a href="com/vuzix/licensing/package-summary.html">com.vuzix.licensing</a></dt>
 <dd>
 <div class="block">Exception to indicate an error during subscription validation.</div>
@@ -215,8 +238,12 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Validates a subscription asynchronously, returning results via the provided callback.</div>
 </dd>
+<dt><a href="com/vuzix/licensing/LicenseManager.html#validateSync(java.lang.String)" class="member-name-link">validateSync(String)</a> - Method in class com.vuzix.licensing.<a href="com/vuzix/licensing/LicenseManager.html" title="class in com.vuzix.licensing">LicenseManager</a></dt>
+<dd>
+<div class="block">Synchronous license validation.</div>
+</dd>
 </dl>
-<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="constant-values.html">Constant&nbsp;Field&nbsp;Values</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a></main>
+<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="constant-values.html">Constant&nbsp;Field&nbsp;Values</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a></main>
 </div>
 </div>
 </body>
